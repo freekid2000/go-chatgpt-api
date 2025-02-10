@@ -3,6 +3,10 @@
 # 此为个人维护的魔改版，相比原版，有以下改动/区别
 Docker image: maxduke/go-chatgpt-api:latest
 
+## 20250210
+- [imitate]Add support for o3-mini
+- **OAI降智太严重了，本人已经退订Plus，后期随时停止更新**
+
 ## 20241206
 - [imitate]Add support for o1 && drop support for o1-preview
 

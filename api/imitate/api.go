@@ -236,6 +236,8 @@ func convertAPIRequest(api_request APIRequest) (chatgpt.CreateConversationReques
 		chatgpt_request.Model = "o1-mini"
 	} else if strings.HasPrefix(api_request.Model, "o1") {
 		chatgpt_request.Model = "o1"
+	} else if strings.HasPrefix(api_request.Model, "o3-mini") {
+		chatgpt_request.Model = "o3-mini"
 	}
 	matches := gptsRegexp.FindStringSubmatch(api_request.Model)
 	if len(matches) == 2 {

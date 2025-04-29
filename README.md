@@ -1,5 +1,7 @@
 # go-chatgpt-api
 
+# 由于OAI无节制的降智，此项目归档。
+
 # 此为个人维护的魔改版，相比原版，有以下改动/区别
 Docker image: maxduke/go-chatgpt-api:latest
 
